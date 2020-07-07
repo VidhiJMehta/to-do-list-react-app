@@ -36,13 +36,15 @@ class AddTodo extends Component {
           onChange= {this.onChange}
           />
         <Button 
+          style={{ marginLeft: "1.2ch" }}
           variant="contained" 
           type="submit" 
           color="secondary"
           onClick={this.submit}> 
           Add 
         </Button>
-        <Button 
+        <Button
+          style={{ marginLeft: "1.2ch" }} 
           variant="contained" 
           type="button" 
           color="secondary"
@@ -50,6 +52,7 @@ class AddTodo extends Component {
           Delete Selected 
         </Button>
         <Button 
+          style={{ marginLeft: "1.2ch" }}
           variant="contained" 
           type="button" 
           color="secondary"

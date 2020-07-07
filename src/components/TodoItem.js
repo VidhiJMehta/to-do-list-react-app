@@ -29,6 +29,7 @@ export class TodoItem extends Component {
                     float= "left" />
                     <ListItemText> 
                         <TextField 
+                        fullWidth
                         type="text" 
                         id={this.props.todo.id} 
                         defaultValue={this.props.todo.title}
